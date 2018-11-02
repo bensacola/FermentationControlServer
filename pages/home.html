@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Fermentation Controller Settings</title>
+		<link rel="stylesheet" href="css/style.css">
+		<style type='text/css'>
+			body {
+				padding:0px;;
+				margin:0px;
+				top:0;
+				left:0;
+				position: absolute;
+				height:100%;
+				width:100%;
+				font-family: Roboto, Arial, sans-serif;
+			}
+			.header-section {
+				color:rgb(222,179,25);
+				background-color: rgb(76,76,83);
+				padding:5px 50px ;
+				box-shadow:  0px 1px 10px -2px  rgba(0,0,150,.8);
+			}
+			.body-section{
+				padding:20px 50px;
+			}
+			.body-content {
+				display:flex;
+			}
+			.section {
+				background-color: rgba(0,0,0,0.05);
+				box-shadow:  0px 2px 10px -2px  rgba(0,0,0,.8);
+				border-radius: 2px;
+				margin: 0 25px 20px 0;
+				padding: 0 0 10px 0;
+			}
+			.section .section-header {
+				border-radius: 2px 2px 0px 0px;
+				color:white;
+				background-color: rgb(76,76,83);
+				padding: 5px 10px  ;
+			}
+			.section .section-header h3 {
+				padding:0;
+				margin:0;
+			}
+			.section .section-body {
+				padding:10px 50px 10px 15px;
+			}
+			.section label {
+				display:inline-block;
+				font-weight: bold;
+				min-width:220px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="header-section">
+			<h2>Fermentation Controller</h2>
+		</div>
+		<div class="body-section">
+			<div class="body-content">
+				<div class='section'>
+					<div class="section-header">
+						<h3>Status</h3>
+					</div>
+					<div class="section-body">
+						<div class='sub-section'>
+							<label>Ambient Temperature</label>
+							<span>70</span>
+						</div>
+						<div class='sub-section'>
+							<label>Fermentation Temperature</label>
+							<span>68</span>
+						</div>
+						<div class='sub-section'>
+							<label>Fan</label>
+							<span>ON</span>
+						</div>
+						<div class='sub-section'>
+							<label>Water Pump</label>
+							<span>ON</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br/>
+			<a href='settings'>Settings</a>	
+		</div>
+	</body>
+</html>
